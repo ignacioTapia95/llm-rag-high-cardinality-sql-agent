@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "categorical-word-similarity"
+version = "0.1.0"
+description = ""
+authors = ["Ignacio Tapia"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+numpy = "^1.0"
+tqdm = "^4.66.5"
+python-dotenv = "^1.0.1"
+langchain = "^0.3.3"
+google-cloud-firestore = "^2.19.0"
+langchain-google-firestore = "^0.4.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
